@@ -1,14 +1,12 @@
 # useForm
 
-Ejemplo:
-
+Example:
 ```
-    const initialForm = {
-        name: '',
-        age: 0,
-        email: ''
-    };
-    
-    const [ formValues, handleInputChange, reset ] = useForm( initialForm );
+const initialForm = {
+  name: '',
+  age: 0,
+  email: ''
+};
 
+const [ formState, onInputChange, onResetForm, ] = useForm( initialForm );
 ```

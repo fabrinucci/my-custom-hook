@@ -1,8 +1,7 @@
 # useFetch
 
-Ejemplo:
+Example:
 ```
-    const url = 'endpoint de una api';
-    const { data: null, loading: true, error: null } = useFetch(url);
-
+const url = 'api endpoint';
+const { data: null, loading: true, error: null } = useFetch(url);
 ```
